@@ -2,6 +2,10 @@ name = "enough-eml-to-db"
 main = "src/index.js"
 compatibility_date = "2023-07-10"
 
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
+
 [[d1_databases]]
 binding = "EMAIL_DB"
 database_name = "eenough-inbox"
