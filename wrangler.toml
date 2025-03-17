@@ -1,0 +1,14 @@
+name = "enough-eml-to-db"
+main = "src/index.js"
+compatibility_date = "2023-07-10"
+
+[[d1_databases]]
+binding = "EMAIL_DB"
+database_name = "eenough-inbox"
+database_id = "08f9294a-e524-4cce-9f58-70f97cbdb751"
+
+[[r2_buckets]]
+binding = "EMAIL_BUCKET"
+bucket_name = "enough-mail"
+
+
